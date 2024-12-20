@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'ru-ru'
+title = 'Портфолио'
+theme = 'nostyleplease'
+
+
+[params]
+  [params.theme_config]
+    appearance        = "light"
+    back_home_text    = "Домой"
+    date_format       = ""
+    isListGroupByDate = false
+    isShowFooter      = false
+    isShowMenu        = false
