@@ -18,6 +18,6 @@
     {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
     {{ $sass := resources.Get "css/main.scss" }}
     {{ $style := $sass | css.Sass $options | resources.Fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ $style.Permalink | absURL }}" integrity="{{ $style.Data.Integrity }}" />
+    <link rel="stylesheet" href="{{ $style.Permalink | 'https://mxschardt.github.io/uni-portfolio-site/' }}" integrity="{{ $style.Data.Integrity }}" />
     {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
   </head>
