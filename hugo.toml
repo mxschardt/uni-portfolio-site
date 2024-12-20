@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mxschardt.github.io/uni-portfolio-site/'
 languageCode = 'ru-ru'
 title = 'Портфолио'
 theme = 'nostyleplease'
