@@ -1,4 +1,5 @@
 baseURL = 'https://mxschardt.github.io/uni-portfolio-site/'
+relativeURLs = true
 languageCode = 'ru-ru'
 title = 'Портфолио'
 theme = 'nostyleplease'
@@ -11,4 +12,3 @@ theme = 'nostyleplease'
     date_format       = ""
     isListGroupByDate = false
     isShowFooter      = false
-    isShowMenu        = false
