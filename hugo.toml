@@ -1,4 +1,4 @@
-baseURL = 'https://mxschardt.github.io/uni-portfolio-site/'
+baseURL = 'https://mxschardt.github.io/'
 languageCode = 'ru-ru'
 title = 'Портфолио'
 theme = 'nostyleplease'
