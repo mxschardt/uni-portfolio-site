@@ -1,0 +1,14 @@
+{{$path := .}}
+{{$static := "static"}}
+{{$depth := len (split $path "/")}}
+{{$headerLevel := $depth}}
+{{if gt $headerLevel 6}}{{$headerLevel = 6}}{{end}}
+
+{{range (readDir $path)}}
+{{if .IsDir}}
+<h{{$headerLevel}}>{{.Name}}</h{{$headerLevel}}>
+{{partial "walk.html" (path.Join $path .Name)}}
+{{else}}
+<a href="{{strings.TrimPrefix $static (path.Join $path .Name)}}">{{.Name}}</a><br>
+{{end}}
+{{end}}
