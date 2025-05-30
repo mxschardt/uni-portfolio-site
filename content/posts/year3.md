@@ -2,9 +2,10 @@
 date = '2022-01-20T14:55:50+03:00'
 draft = false
 title = '3 Курс'
+layout = '3year'
 +++
 
-## 5 Семестр
+## Программирование. 5 Семестр
 
 ### Лабораторная работа №1
 
@@ -46,7 +47,7 @@ title = '3 Курс'
 
 [Презентация](https://docs.google.com/presentation/d/12te6xABKo2MrxAyDI5UgoEwuCUV264KiViNWEGOr2N0/edit?usp=sharing) | [Исходный Код](https://github.com/mxschardt/uni-portfolio/tree/03113b77458a917936c299953fb0e818f8411a24/5%20%D0%A1%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/mvc)
 
-## 6 Семестр
+## Программирование. 6 Семестр
 
 ### Лабораторная Работа №1-2
 

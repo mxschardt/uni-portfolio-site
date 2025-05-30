@@ -2,9 +2,10 @@
 date = '2021-12-20T14:55:50+03:00'
 draft = false
 title = '4 Курс'
+layout = '4year'
 +++
 
-## 7 Семестр
+## Программирование. 7 Семестр
 
 ### Реализация OAuth 2.0 + OpenID Connect с использованием Spring Boot, JWT и Redis
 
